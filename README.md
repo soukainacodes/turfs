@@ -66,10 +66,4 @@ Feel free to open an [issue](https://github.com/soukainacodes/turfs/issues) or s
 
 ---
 
-## 📷 Screenshots
-
-![Popup Screenshot](screenshot.png)
-
----
-
 **No more ads. Just the web.**

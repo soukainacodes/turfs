@@ -1,13 +1,14 @@
 function applyRules(isEnabled, rules) {
+  const ruleIds = rules.map(rule => rule.id);
   if (isEnabled) {
     chrome.declarativeNetRequest.updateDynamicRules({
       addRules: rules,
-      removeRuleIds: []
+      removeRuleIds: ruleIds // Remove old rules before adding new ones
     });
   } else {
     chrome.declarativeNetRequest.updateDynamicRules({
       addRules: [],
-      removeRuleIds: rules.map(rule => rule.id)
+      removeRuleIds: ruleIds
     });
   }
 }

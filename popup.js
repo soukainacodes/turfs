@@ -3,7 +3,7 @@ const toggleStatus = document.getElementById('toggleStatus');
 
 // Helper to update status text
 function updateStatus(isEnabled) {
-  toggleStatus.textContent = isEnabled ? 'Ad Blocker is ON' : 'Ad Blocker is OFF';
+  toggleStatus.textContent = isEnabled ? 'turfs is ON' : 'turfs is OFF';
 }
 
 // Try to get the stored value, fallback to true

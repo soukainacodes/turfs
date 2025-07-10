@@ -1,6 +1,8 @@
 # Turfs - Free Ad Blocker Chrome Extension
 
-![Turfs Logo](icons/icon128.png)
+<div align="center">
+  <img src="icons/icon128.png" alt="Turfs Logo" width="128"/>
+</div>
 
 **Turfs** is a free, open-source ad blocker for Google Chrome.  
 It’s lightweight, privacy-friendly, and easy to use—just one click to block or allow ads on any site!
